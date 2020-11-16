@@ -10,3 +10,11 @@ if (result % 3 == 0 && result % 5 == 0) {
 } else if (result % 5 == 0) {
   console.log("Buzz");
 }
+
+const answer = prompt ('Pick a number between 1-10');
+
+if (answer === "3") {
+  console.log("That's correct!")
+} else {
+  console.log("Sorry, that's incorrect")
+}
